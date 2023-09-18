@@ -1,5 +1,5 @@
-<span style="color:lightblue; font-size:24px; font-weight:bold;">Welcome to Bozland!</span> <br>
-<span style="color:lightblue; font-size:24px; font-weight:bold;">Home of the Bozzers</span>
+<span style="color:lightblue; font-size:24px; font-weight:bold;">Linh Khanh Nguyen (Kolor)</span> <br>
+<span style="color:lightblue; font-size:24px; font-weight:bold;">Data Science Project</span>
 
 --
 
