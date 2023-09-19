@@ -16,7 +16,7 @@
 
 The main goal of this project is to analyze data with the goal of supporting inventory-related business decisions of the fictional Mint Classics Company using SQL. 
 
-## Methodology <a name="meth"></a>
+## SQL queries <a name="meth"></a>
 
 Here is some code that we used to develop our analysis. 
  
@@ -31,6 +31,9 @@ FROM
 HAVING
     order_count = 0;
 ```
+Result
+![](pics/plot1.png)
+<br><br>
 
 ## Section <a name="section2"></a>
 Blah blah
