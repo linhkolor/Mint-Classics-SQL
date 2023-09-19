@@ -75,7 +75,7 @@ ORDER BY
 ```
 Result
 
-![](pics/Screenshot 2023-09-18 at 11.00.37 PM.png)
+![](pics/Screenshot 2023-09-18 at 11.14.54 PM.png)
 <br><br>
 
 ## Section <a name="section2"></a>
