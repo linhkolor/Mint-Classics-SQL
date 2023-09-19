@@ -114,6 +114,25 @@ Result
 
 ![](pics/Screenshot 2023-09-18 at 11.48.37 PM.png)
 <br><br>
+
+-- Calculate the capacity utilization for each warehouse
+```sql
+SELECT
+    w.warehousecode,
+    w.warehousename,
+    w.warehousepctcap,
+    SUM(p.quantityinstock) AS total_quantity_in_stock
+FROM
+    warehouses w
+JOIN
+    products p ON w.warehousecode = p.warehousecode
+GROUP BY
+    w.warehousecode, w.warehousename, w.warehousepctcap;
+```
+Result
+
+![](pics/Screenshot 2023-09-18 at 11.48.37 PM.png)
+<br><br>
 ## Section <a name="section2"></a>
 Blah blah
 
