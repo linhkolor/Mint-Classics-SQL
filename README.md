@@ -32,8 +32,31 @@ HAVING
     order_count = 0;
 ```
 Result
+
 ![](pics/Screenshot 2023-09-18 at 10.37.54 PM.png)
 <br><br>
+
+```sql
+SELECT
+    p.productline,
+    SUM(p.quantityinstock) AS total_inventory,
+    w.warehousecode,
+    w.warehousename,
+    w.warehousepctcap
+FROM
+    products p
+JOIN
+    warehouses w ON p.warehousecode = w.warehousecode
+GROUP BY
+    p.productline, w.warehousecode, w.warehousename, w.warehousepctcap
+ORDER BY
+    total_inventory DESC;
+```
+Result
+
+![](pics/Screenshot 2023-09-18 at 10.37.54 PM.png)
+<br><br>
+
 
 ## Section <a name="section2"></a>
 Blah blah
