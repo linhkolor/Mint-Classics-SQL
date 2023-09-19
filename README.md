@@ -14,11 +14,11 @@
 
 ## Introduction  <a name="introduction"></a>
 
-(The "Introduction" text above is formatted in heading 2 style.) The main goal of this project is to explore *(insert project idea here)*.  
+The main goal of this project is to analyze data with the goal of supporting inventory-related business decisions of the fictional Mint Classics Company using SQL. 
 
 ## Methodology <a name="meth"></a>
 
-Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
+Here is some code that we used to develop our analysis. 
  
 Note that for the purposes of the website, you have to copy this code into the markdown file and  
 put the code inside trip backticks with the keyword `python`.
