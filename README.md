@@ -96,6 +96,24 @@ Result
 
 ![](pics/Screenshot 2023-09-18 at 11.27.00 PM.png)
 <br><br>
+
+```sql
+SELECT
+    YEAR(paymentdate) AS payment_year,
+    MONTH(paymentdate) AS payment_month,
+    COUNT(*) AS total_payments,
+    SUM(amount) AS total_amount
+FROM
+    payments
+GROUP BY
+    payment_year, payment_month
+ORDER BY
+    payment_year, payment_month;
+```
+Result
+
+![](pics/Screenshot 2023-09-18 at 11.27.00 PM.png)
+<br><br>
 ## Section <a name="section2"></a>
 Blah blah
 
