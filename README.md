@@ -131,7 +131,7 @@ GROUP BY
 ```
 Result
 
-![](pics/Screenshot 2023-09-18 at 11.48.37 PM.png)
+![](pics/Screenshot 2023-09-19 at 12.14.38 AM.png)
 <br><br>
 ## Section <a name="section2"></a>
 Blah blah
