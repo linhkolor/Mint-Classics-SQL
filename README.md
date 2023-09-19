@@ -20,24 +20,17 @@ The main goal of this project is to analyze data with the goal of supporting inv
 
 Here is some code that we used to develop our analysis. 
  
-Note that for the purposes of the website, you have to copy this code into the markdown file and  
-put the code inside trip backticks with the keyword `python`.
-
-```python
-import seaborn as sns 
-iris = sns.load_dataset('iris') 
-
-print(iris.head(),  '\n---')
-print(iris.tail(),  '\n---')
-print(iris.columns, '\n---')
-print("The shape is: ",iris.shape, '\n---')
-print("Info:",iris.info(), '\n---') # memory usage, name, dtype, and # of non-null obs (--> # of missing obs) per variable
-print(iris.describe(), '\n---') # summary stats, and you can customize the list!
-print(iris['species'].value_counts()[:10], '\n---')
-print(iris['species'].nunique(), '\n---')
+```sql
+SELECT
+    p.productcode,
+    p.productname,
+    p.quantityinstock,
+    (SELECT COUNT(*) FROM orderdetails od WHERE p.productcode = od.productcode) AS order_count
+FROM
+    products p
+HAVING
+    order_count = 0;
 ```
-
-Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
 
 ## Section <a name="section2"></a>
 Blah blah
