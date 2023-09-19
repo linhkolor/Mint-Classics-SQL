@@ -5,8 +5,8 @@
 
 ## Table of contents
 1. [Introduction](#introduction)
-2. [Methodology](#meth)
-3. [Analysis Section](#section3)
+2. [SQL queries](#meth)
+3. [Result Discussions](#section3)
 4. [Summary](#summary)
 
 ## Introduction  <a name="introduction"></a>
@@ -15,7 +15,7 @@ The main goal of this project is to analyze data with the goal of supporting inv
 
 ## SQL queries <a name="meth"></a>
 
-Here is some code that we used to develop our analysis. 
+Here is some code that I used to develop the analysis. 
  
 ```sql
 SELECT
@@ -185,7 +185,13 @@ Result
 ![](pics/Screenshot 2023-09-19 at 6.00.42 PM.png)
 <br><br>
 
-## Analysis Section <a name="section3"></a>
+## Result Discussion <a name="section3"></a>
+First, the analysis identified products that have not been ordered, which is 1985 Toyota Supra. Based on this, Mint Classics should decide to promote it, offer discounts, or even consider discontinuing it if it is still not generating any demand.
+
+Secondly, the analysis showed that the classic car product line has the highest inventory level, while the train product line has the lowest inventory level. It also showed which warehouse each product line is stored at, and the percentage capacity of each warehouse. This information can help the business understand whether certain warehouses are close to their storage limits. Thus, all of the information can be crucial for logistics and optimizing stock distribution. Product lines with high inventory levels (classic car and vintage car) are stored at warehouses that still have a lot of capacity left, while product lines with lower inventory levels are stored at warehouses with lower capacity remaining. The analysis further consolidates that classic car and vintage car product lines have the most number of total products, which suggests these product lines are the most popular and have diversity in their product offerings. The fact that these product lines have high inventory levels shows that Mint Classics can ensure that products are readily available to meet customer demand. This can lead to improved customer satisfaction and loyalty. The warehouses that store inventories of these two product lines also have higher capacity left than other warehouses, indicating that Mint Classics' warehouses operate efficiently and are not overburdened.
+
+
+
 
 
 ## Summary <a name="summary"></a>
