@@ -78,6 +78,24 @@ Result
 ![](pics/Screenshot 2023-09-18 at 11.14.54 PM.png)
 <br><br>
 
+```sql
+SELECT
+    p.productline,
+    COUNT(*) AS total_products,
+    SUM(p.quantityinstock) AS total_inventory,
+    AVG(p.buyprice) AS avg_buyprice,
+    AVG(p.MSRP) AS avg_msrp
+FROM
+    products p
+GROUP BY
+    p.productline
+ORDER BY
+    total_inventory DESC;
+```
+Result
+
+![](pics/Screenshot 2023-09-18 at 11.14.54 PM.png)
+<br><br>
 ## Section <a name="section2"></a>
 Blah blah
 
