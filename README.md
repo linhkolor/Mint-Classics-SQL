@@ -57,6 +57,26 @@ Result
 ![](pics/Screenshot 2023-09-18 at 11.00.37 PM.png)
 <br><br>
 
+```sql
+SELECT
+    YEAR(o.orderdate) AS sales_year,
+    MONTH(o.orderdate) AS sales_month,
+    COUNT(o.ordernumber) AS total_orders,
+    SUM(od.quantityordered) AS total_quantity_ordered,
+    SUM(od.quantityordered * od.priceeach) AS total_sales
+FROM
+    orders o
+JOIN
+    orderdetails od ON o.ordernumber = od.ordernumber
+GROUP BY
+    sales_year, sales_month
+ORDER BY
+    sales_year, sales_month;
+```
+Result
+
+![](pics/Screenshot 2023-09-18 at 11.00.37 PM.png)
+<br><br>
 
 ## Section <a name="section2"></a>
 Blah blah
