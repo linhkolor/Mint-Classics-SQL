@@ -133,6 +133,33 @@ Result
 
 ![](pics/Screenshot 2023-09-19 at 12.14.38 AM.png)
 <br><br>
+
+-- Scenario 1: Check if any warehouse has capacity utilization below 70%
+```sql
+SELECT
+    warehousecode,
+    warehousename,
+    warehousepctcap,
+    total_quantity_in_stock
+FROM
+    (SELECT
+        w.warehousecode,
+        w.warehousename,
+        w.warehousepctcap,
+        SUM(p.quantityinstock) AS total_quantity_in_stock
+    FROM
+        warehouses w
+    JOIN
+        products p ON w.warehousecode = p.warehousecode
+    GROUP BY
+        w.warehousecode, w.warehousename, w.warehousepctcap) AS warehouse_utilization
+WHERE
+    warehousepctcap < 70;
+```
+Result
+
+![](pics/Screenshot 2023-09-19 at 12.14.38 AM.png)
+<br><br>
 ## Section <a name="section2"></a>
 Blah blah
 
