@@ -54,7 +54,7 @@ ORDER BY
 ```
 Result
 
-![](pics/Screenshot 2023-09-18 at 10.37.54 PM.png)
+![](pics/Screenshot 2023-09-18 at 11.00.37 PM.png)
 <br><br>
 
 
