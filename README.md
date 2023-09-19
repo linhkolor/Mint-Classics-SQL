@@ -32,7 +32,7 @@ HAVING
     order_count = 0;
 ```
 Result
-![](pics/plot1.png)
+![](pics/Screenshot 2023-09-18 at 10.37.54 PM.png)
 <br><br>
 
 ## Section <a name="section2"></a>
