@@ -1,5 +1,5 @@
-<span style="color:lightblue; font-size:24px; font-weight:bold;">Linh Khanh Nguyen (Kolor)</span> <br>
-<span style="color:lightblue; font-size:24px; font-weight:bold;">Data Science Project</span>
+<span style="color:#6495ED; font-size:24px; font-weight:bold;">Mint Classics Data Insights & Warehouse Optimization using SQL</span> <br>
+<span style="color:#6495ED; font-size:20px; font-weight:bold;">Author: Kolor Nguyen</span>
 
 --
 
