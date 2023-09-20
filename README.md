@@ -190,13 +190,10 @@ First, the analysis identified products that have not been ordered, which is 198
 
 Secondly, the analysis showed that the classic car product line has the highest inventory level, while the train product line has the lowest inventory level. It also showed which warehouse each product line is stored at, and the percentage capacity of each warehouse. This information can help the business understand whether certain warehouses are close to their storage limits. Thus, all of the information can be crucial for logistics and optimizing stock distribution. Product lines with high inventory levels (classic car and vintage car) are stored at warehouses that still have a lot of capacity left, while product lines with lower inventory levels are stored at warehouses with lower capacity remaining. The analysis further consolidates that classic car and vintage car product lines have the most number of total products, which suggests these product lines are the most popular and have diversity in their product offerings. The fact that these product lines have high inventory levels shows that Mint Classics can ensure that products are readily available to meet customer demand. This can lead to improved customer satisfaction and loyalty. The warehouses that store inventories of these two product lines also have higher capacity left than other warehouses, indicating that Mint Classics' warehouses operate efficiently and are not overburdened.
 
-
-
-
+Furthermore, the analysis showed that for each product line, the average MSRP (Manufacturer's Suggested Retail Price) is higher than the average buy price. This suggests Mint Classics' business has the potential for good profit margins and pricing flexibility, which can be positive for competitiveness and customer satisfaction. Still, careful pricing strategies and cost management are essential to maintain profitability and market positioning.
 
 ## Summary <a name="summary"></a>
 
-Blah blah
 
 ## More 
 
