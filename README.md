@@ -7,11 +7,15 @@
 1. [Introduction](#introduction)
 2. [SQL queries](#meth)
 3. [Result Discussions](#section3)
-4. [Summary](#summary)
+4. [Recommendation for Mint Classics](#summary)
 
 ## Introduction  <a name="introduction"></a>
 
-The main goal of this project is to analyze data with the goal of supporting inventory-related business decisions of the fictional Mint Classics Company using SQL. 
+The main goal of this project is to analyze data with the goal of supporting inventory-related business decisions of the fictional Mint Classics Company using SQL. In today's dynamic and data-driven business landscape, understanding and harnessing sales data is crucial for making informed decisions, optimizing operations, and driving profitability. The project at hand involves the extraction and analysis of sales data to gain valuable insights into the performance of Mint Classics. By delving into historical sales records, this project aims to uncover trends, patterns, and key metrics that can inform strategic planning, inventory management, and marketing strategies.
+
+Through the use of SQL queries, we will examine sales data broken down by year and month, providing a granular view of the business's performance over time. This analysis includes metrics such as total orders, total quantity ordered, and total sales revenue, which are essential for evaluating the health and growth of the business.
+
+As we delve into the findings of this project, we will discover not only how the business has performed in the past but also gain insights that can be used to shape its future trajectory. Whether it's identifying peak sales seasons, optimizing inventory levels, or refining marketing campaigns, the knowledge gained from this analysis will empower the business to make data-driven decisions and remain competitive in today's rapidly changing market.
 
 ## SQL queries <a name="meth"></a>
 
@@ -192,8 +196,13 @@ Secondly, the analysis showed that the classic car product line has the highest 
 
 Furthermore, the analysis showed that for each product line, the average MSRP (Manufacturer's Suggested Retail Price) is higher than the average buy price. This suggests Mint Classics' business has the potential for good profit margins and pricing flexibility, which can be positive for competitiveness and customer satisfaction. Still, careful pricing strategies and cost management are essential to maintain profitability and market positioning.
 
-## Summary <a name="summary"></a>
+## Recommendation for Mint Classics <a name="summary"></a>
 
+First of all, Mint Classics should use the queried sales and payment data and visualize the sales and payment by time to identify peak sales months and seasons from the sales data, adjust inventory levels to meet increased demand during these periods, and consider pre-seasonal ordering to ensure product availability during high-demand periods.
+
+Secondly, Mint Classics should employ product mix optimization by using the queried product lines data. They should evaluate the performance of individual product lines over time, consider discontinuing or repositioning poorly performing product lines, and invest in marketing and inventory management for high-performing product lines.
+
+Furthermore, Mint Classics should implement inventory control and cost management based on the queried inventory and warehouse data. It should implement effective inventory control measures to prevent overstocking and reduce carrying costs, negotiate favorable purchasing terms with suppliers to optimize buy prices, and monitor inventory turnover rates and aim for efficient inventory management.
 
 ## More 
 
