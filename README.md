@@ -7,7 +7,7 @@
 1. [Introduction](#introduction)
 2. [SQL queries](#meth)
 3. [Result Discussions](#section3)
-4. [Recommendation for Mint Classics](#summary)
+4. [Recommendations for Mint Classics](#summary)
 
 ## Introduction  <a name="introduction"></a>
 
@@ -196,13 +196,15 @@ Secondly, the analysis showed that the classic car product line has the highest 
 
 Furthermore, the analysis showed that for each product line, the average MSRP (Manufacturer's Suggested Retail Price) is higher than the average buy price. This suggests Mint Classics' business has the potential for good profit margins and pricing flexibility, which can be positive for competitiveness and customer satisfaction. Still, careful pricing strategies and cost management are essential to maintain profitability and market positioning.
 
-## Recommendation for Mint Classics <a name="summary"></a>
+## Recommendations for Mint Classics <a name="summary"></a>
 
 First of all, Mint Classics should use the queried sales and payment data and visualize the sales and payment by time to identify peak sales months and seasons from the sales data, adjust inventory levels to meet increased demand during these periods, and consider pre-seasonal ordering to ensure product availability during high-demand periods.
 
 Secondly, Mint Classics should employ product mix optimization by using the queried product lines data. They should evaluate the performance of individual product lines over time, consider discontinuing or repositioning poorly performing product lines, and invest in marketing and inventory management for high-performing product lines.
 
 Furthermore, Mint Classics should implement inventory control and cost management based on the queried inventory and warehouse data. It should implement effective inventory control measures to prevent overstocking and reduce carrying costs, negotiate favorable purchasing terms with suppliers to optimize buy prices, and monitor inventory turnover rates and aim for efficient inventory management.
+
+Incorporating these recommendations will enable Mint Classics to make more informed, data-driven decisions, enhance its competitive position in the market, and ultimately drive sustainable growth and profitability. The project has laid the foundation for deeper analysis and improvement, and ongoing data-driven strategies will be essential for the continued success of Mint Classics in the classic car industry.
 
 ## More 
 
