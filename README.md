@@ -205,7 +205,3 @@ Secondly, Mint Classics should employ product mix optimization by using the quer
 Furthermore, Mint Classics should implement inventory control and cost management based on the queried inventory and warehouse data. It should implement effective inventory control measures to prevent overstocking and reduce carrying costs, negotiate favorable purchasing terms with suppliers to optimize buy prices, and monitor inventory turnover rates and aim for efficient inventory management.
 
 Incorporating these recommendations will enable Mint Classics to make more informed, data-driven decisions, enhance its competitive position in the market, and ultimately drive sustainable growth and profitability. The project has laid the foundation for deeper analysis and improvement, and ongoing data-driven strategies will be essential for the continued success of Mint Classics in the classic car industry.
-
-## More 
-
-To view the GitHub repo for this website, click [here](https://github.com/WilliamRoth82/BozandtheBozzers).
